@@ -1,0 +1,19 @@
+{
+  "name": "02-eleventy-y-nodejs",
+  "version": "1.0.0",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve --port=7777",
+    "clean": "rm -rf docs",
+    "deploy": "",
+    "deploy-subdomain": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "Starter Project para crear SSGs con 11ty y desplegar en GitHub Pages",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
